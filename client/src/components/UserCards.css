@@ -1,0 +1,12 @@
+.userCard {
+    width: 90%;
+    height: 80%;
+    background-color: black;
+
+}
+.container{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    height: 500px;
+}
