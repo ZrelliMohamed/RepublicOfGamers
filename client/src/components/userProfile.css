@@ -1,0 +1,35 @@
+.userProfile{
+    /* width: 100%; */
+    background-color: #8c035c;
+    /* height: 100%; */
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+}
+.userImage{
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+
+.userImage img{
+   
+width: 50%;
+height: 20%;
+border-radius: 50%;
+margin-left: 30%;
+margin-top: 15%;
+margin-bottom: 15%;
+}
+
+.userDescription{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40%;
+    margin-right: 50%;
+}
