@@ -1,0 +1,17 @@
+//http://localhost:3000/api/users/getAll
+//http://localhost:3000/api/users/add
+//http://localhost:3000/api/users/:id delete one 
+//http://localhost:3000/api/users/:id getOne
+//http://localhost:3000/api/users/:id put
+//http://localhost:3000/api/users/team/:id same id
+////////////////////////////////////////
+// teams
+//http://localhost:3000/api/teams/getAll
+//http://localhost:3000/api/teams/add
+//http://localhost:3000/api/teams/:id delete one 
+//http://localhost:3000/api/teams/:id getOne
+//http://localhost:3000/api/teams/:id put 
+
+
+
+
