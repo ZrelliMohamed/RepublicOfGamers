@@ -15,3 +15,19 @@
 
 
 
+{
+  "nickName":"canibal" ,
+"email":"canibal@alpha.tn",
+"password":12345,
+"role": "Player"
+"userImage":""
+"teams_id":
+}
+
+{
+  "nameOfTeam":"Alpha",
+  "description": "Free Fire Team",
+  "imageOfTeam": "https://scontent.xx.fbcdn.net/v/t1.15752-9/334524744_204570425530476_3787141919958921529_n.jpg?stp=dst-jpg_s261x260&_nc_cat=107&ccb=1-7&_nc_sid=aee45a&_nc_ohc=uSnsQuR_dboAX91Pzzn&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTmWvTvWN5UAQGZVLWVc6RpGxrJ5WtEoss3FUYzYKn-zQ&oe=6444E3F1"
+}
+
+

@@ -19,7 +19,7 @@ module.exports = {
         });
       },
       getOne: function(callback,id) {
-        const sql = 'SELECT * FROM users where users_id =?'
+        const sql = 'SELECT * FROM users where email=?'
         conn.query(sql,id, function (error, results) {
           callback(error, results)
         })

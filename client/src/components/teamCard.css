@@ -1,7 +1,7 @@
 .TeamCard {
     width: 90%;
     height: 80%;
-    background-color: black;
+    color: aliceblue;
 
 }
 .container{
@@ -9,4 +9,9 @@
     place-items: center;
     grid-template-columns: repeat(4,1fr);
     height: 500px;
+}
+
+.TeamCard img {
+    width: 200px;
+    height: 350px;
 }
