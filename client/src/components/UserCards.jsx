@@ -24,8 +24,16 @@ function UserCards({getTeamate}) {
                 getTeamate(e)
               }}>
                   <img src={e.userImage}  style={{width:'100%',height:'100%'}}/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input type="button" value="Detele User"  onClick={()=>{
+                    axios.delete("http://localhost:3000/api/users/"+e.users_id)
+                    .then(res=>console.log(res))
+                    .then(err=>console.log(err))
+                   }}/>
+                  <input type="button" value="Update User" />
               </div>
               </Link>
+             
             )
           })
 
